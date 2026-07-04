@@ -1,6 +1,6 @@
 ! Title: Browsergames Blocklist for Pi-hole
 ! Created: 2026-07-04
-! Entries: 98
+! Entries: 99
 ! Format: Adblock Plus (ABP) syntax - blocks domain + all subdomains
 ! Note: scratch.mit.edu, code.org and educational content are NOT blocked
 !
@@ -126,6 +126,7 @@
 ||nitrome.com^
 ||kongregate.io^
 ||2048game.com^
+||1001games.com^
 ||crazy4games.com^
 ||gamespot.com^
 ||poki.de^
