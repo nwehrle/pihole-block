@@ -1,0 +1,32 @@
+! Title: Streaming Services Blocklist for Pi-hole
+! Created: 2026-07-04
+! Entries: 4
+! Format: Adblock Plus (ABP) syntax - blocks domain + all subdomains
+! Source: Manually curated from existing Pi-hole rules (see screenshot)
+!
+! Usage in Pi-hole (v5.0+ required for ABP syntax):
+!   Option 1: Add as local adlist via file:///path/to/streaming.txt
+!   Option 2: Host via HTTP/HTTPS and add URL as adlist
+!   After adding: run "pihole -g" (or Tools -> Update Gravity in web UI)
+!
+! ABP syntax explained:
+!   ||domain^  =  blocks domain AND all subdomains
+!   The Spotify video CDN entries are specific subdomains; ABP will block
+!   exactly those hosts (and any deeper subdomains), leaving sibling
+!   subdomains of scdn.co / spotifycdn.com untouched.
+!
+! Notes:
+!   - The original YouTube rule was a regex: (\.|^)youtube\.com$
+!     ABP equivalent ||youtube.com^ blocks youtube.com and all subdomains,
+!     which is functionally identical.
+!   - Blocking video-*.spotifycdn.com / scdn.co disables Spotify video
+!     playback (podcast video, music videos) while leaving audio streaming
+!     working via the non-video Spotify CDNs.
+
+! --- Spotify video CDNs ---
+||video-fa.scdn.co^
+||video-akpcw.spotifycdn.com^
+||video-cf.spotifycdn.com^
+
+! --- YouTube (all subdomains) ---
+||youtube.com^
