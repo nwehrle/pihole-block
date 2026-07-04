@@ -1,0 +1,142 @@
+# Adult Sites Blocklist for Pi-hole
+# Created: 2026-07-04
+# Entries: 102
+#
+# Usage in Pi-hole:
+#   Option 1: Add as local adlist via file:///path/to/porn.txt
+#   Option 2: Add domains manually under "Domains" -> "Add domain to blocklist"
+#   Option 3: Host via HTTP/HTTPS and add URL as adlist
+#
+# For wildcard/subdomain blocking, additionally add regex rules in Pi-hole,
+# e.g. (\.|^)pornhub\.com$
+#
+# For a MUCH larger curated list (~50,000+ domains), consider these
+# actively maintained community blocklists as alternative or supplement:
+#   - https://github.com/StevenBlack/hosts (use "porn" extension)
+#   - https://github.com/Sinfonietta/hostfiles (pornography-hosts)
+#   - https://github.com/blocklistproject/Lists (porn.txt)
+#
+# Note: DNS blocking is bypassable (DoH/DoT in browsers, VPN, direct IPs).
+# For stricter enforcement, use router/firewall-level content filtering.
+
+# --- Category 1: Top international portals / Tube sites ---
+pornhub.com
+xvideos.com
+xnxx.com
+xhamster.com
+youporn.com
+redtube.com
+tnaflix.com
+spankbang.com
+eporner.com
+porn.com
+sex.com
+tube8.com
+porntrex.com
+hclips.com
+beeg.com
+porndoe.com
+gotporn.com
+drtuber.com
+sunporno.com
+empflix.com
+
+# --- Category 2: Other large tube sites ---
+porndroids.com
+porn300.com
+pornhat.com
+porntube.com
+porndish.com
+hqporner.com
+upornia.com
+txxx.com
+hotmovs.com
+vjav.com
+anysex.com
+fapvid.com
+zbporn.com
+fux.com
+porzo.com
+
+# --- Category 3: Premium / Studio sites ---
+brazzers.com
+bangbros.com
+naughtyamerica.com
+realitykings.com
+digitalplayground.com
+mofos.com
+twistys.com
+babes.com
+blacked.com
+tushy.com
+vixen.com
+deeper.com
+metart.com
+x-art.com
+wicked.com
+
+# --- Category 4: Cam / Live portals ---
+chaturbate.com
+livejasmin.com
+stripchat.com
+bongacams.com
+cam4.com
+myfreecams.com
+camsoda.com
+flirt4free.com
+streamate.com
+xcams.com
+
+# --- Category 5: Creator / Subscription platforms ---
+onlyfans.com
+fansly.com
+manyvids.com
+justforfans.com
+fancentro.com
+adultnode.com
+loyalfans.com
+iwantclips.com
+
+# --- Category 6: Aggregators / Forums / Communities ---
+motherless.com
+rule34.xxx
+e-hentai.org
+nhentai.net
+hentaihaven.xxx
+literotica.com
+adultfriendfinder.com
+
+# --- Category 7: German-language portals ---
+mydirtyhobby.com
+big7.com
+amateurcommunity.de
+visit-x.net
+777livecams.de
+
+# --- Category 8: Gay / LGBTQ portals ---
+gayforit.eu
+boyfriendtv.com
+men.com
+seancody.com
+justusboys.com
+xtube.com
+gaymaletube.com
+
+# --- Category 9: Niche / other popular ---
+adulttime.com
+mylust.com
+watchmygf.net
+javhd.com
+javfinder.li
+pornone.com
+sxyprn.com
+thumbzilla.com
+keezmovies.com
+extremetube.com
+
+# --- Category 10: Adult ad / tracking networks ---
+trafficjunky.com
+juicyads.com
+trafficstars.com
+exoclick.com
+adsterra.com
