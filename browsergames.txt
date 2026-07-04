@@ -1,0 +1,130 @@
+# Browsergames Blocklist for Pi-hole
+# Created: 2026-07-04
+# Entries: 98
+# Note: scratch.mit.edu, code.org and educational content are NOT blocked
+#
+# Usage in Pi-hole:
+#   Option 1: Add as local adlist via file:///path/to/browsergames.txt
+#   Option 2: Add domains manually under "Domains" -> "Add domain to blocklist"
+#   Option 3: Host via HTTP/HTTPS and add URL as adlist
+#
+# For wildcard/subdomain blocking, additionally add regex rules in Pi-hole,
+# e.g. (\.|^)poki\.com$
+
+# --- Category 1: Top international portals ---
+poki.com
+crazygames.com
+kongregate.com
+miniclip.com
+armorgames.com
+y8.com
+kizi.com
+friv.com
+addictinggames.com
+agame.com
+gamesgames.com
+silvergames.com
+notdoppler.com
+plays.org
+
+# --- Category 2: German-language portals ---
+spiele.com
+spielen.com
+spielaffe.de
+spielspiele.de
+jetztspielen.de
+kibagames.com
+browsergames.de
+sofortspielen.de
+mausland.de
+spielkarussell.de
+upjers.com
+bigpoint.com
+
+# --- Category 3: Other large portals ---
+gamepix.com
+gamemonetize.com
+gameflare.com
+wtfgames.com
+minigames.com
+funnygames.org
+littlegames.com
+gamesnacks.com
+twoplayergames.org
+culga.com
+papasgames.com
+girlgames.com
+girlsgogames.com
+lagged.com
+onlinegames.io
+
+# --- Category 4: Educational-branded gaming portals (primarily gaming) ---
+coolmathgames.com
+abcya.com
+mathplayground.com
+funbrain.com
+hoodamath.com
+mathgames.com
+primarygames.com
+
+# --- Category 5: .io game portals and popular .io games ---
+iogames.space
+iogames.io
+iogames.online
+iogamesplay.com
+slither.io
+agar.io
+krunker.io
+diep.io
+hole.io
+paper-io.com
+
+# --- Category 6: Community/Indie with browser games ---
+itch.io
+gamejolt.com
+newgrounds.com
+construct.net
+
+# --- Category 7: Retro/Emulator browser portals ---
+classicreload.com
+retrogames.cc
+playclassic.games
+dosgames.com
+emulatoronline.com
+retrogames.onl
+arcadespot.com
+freearcade.com
+
+# --- Category 8: Regional popular portals ---
+juegos.com
+jogos360.com.br
+jogos.com.br
+ojogos.com.br
+jeux.fr
+jeux.com
+giochi.it
+jocuri.ro
+oyunlar1.com
+minijuegos.com
+
+# --- Category 9: Publishers/Aggregators ---
+gamedistribution.com
+playhop.com
+gamemonetize.co
+cpmstar.com
+coolgames.com
+
+# --- Category 10: Other well-known ---
+roblox.com
+funorb.com
+nitrome.com
+kongregate.io
+2048game.com
+crazy4games.com
+gamespot.com
+poki.de
+gameforge.com
+gogy.com
+gameflare.io
+tyrone-unblocked.com
+unblockedgames.world
