@@ -1,6 +1,6 @@
 ! Title: Browsergames Blocklist for Pi-hole
 ! Created: 2026-07-04
-! Entries: 101
+! Entries: 103
 ! Format: Adblock Plus (ABP) syntax - blocks domain + all subdomains
 ! Note: scratch.mit.edu, code.org and educational content are NOT blocked
 !
@@ -16,6 +16,14 @@
 ! For Pi-hole versions BELOW 5.0 that don't support ABP: use the .hosts
 ! variant of this file (if generated) or manually add regex rules like
 ! (\.|^)poki\.com$ under Domains -> Regex filter.
+!
+! ADDITIONAL MANUAL REGEX RULE (must be added separately in Pi-hole):
+!   Regex:  brainrot
+!   Effect: blocks any domain containing "brainrot" anywhere in the name
+!           (e.g. brainrot.io, brainrotgames.com, mybrainrot.net,
+!            italian-brainrot-clicker.com, etc.)
+!   Add via: Pi-hole Web UI -> Domains -> Regex filter -> Add
+!   (ABP adlist syntax cannot express substring wildcards - regex is required)
 
 ! --- Category 1: Top international portals ---
 ||poki.com^
@@ -86,6 +94,8 @@
 ||paper-io.com^
 ||kickblock.io^
 ||lavarun.io^
+||escapewaves.io^
+||escapetsunamibrainrots.org^
 
 ! --- Category 6: Community/Indie with browser games ---
 ||itch.io^
