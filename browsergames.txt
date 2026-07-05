@@ -1,6 +1,6 @@
 ! Title: Browsergames Blocklist for Pi-hole
 ! Created: 2026-07-04
-! Entries: 172
+! Entries: 180
 ! Format: Adblock Plus (ABP) syntax - blocks domain + all subdomains
 ! Note: scratch.mit.edu, code.org and educational content are NOT blocked
 !
@@ -220,3 +220,13 @@
 ||vitalitygames.com^
 ||gamesaturn.com^
 ||ludorex.com^
+
+! --- Category 13: Gaming Ad Networks ---
+||nitropay.com^
+||adinplay.com^
+||playwire.com^
+||snigelweb.com^
+||venatusmedia.com^
+||freestar.com^
+||aditude.io^
+||pubfuture.com^
