@@ -1,6 +1,6 @@
 ! Title: Browsergames Blocklist for Pi-hole
 ! Created: 2026-07-04
-! Entries: 103
+! Entries: 172
 ! Format: Adblock Plus (ABP) syntax - blocks domain + all subdomains
 ! Note: scratch.mit.edu, code.org and educational content are NOT blocked
 !
@@ -40,6 +40,12 @@
 ||silvergames.com^
 ||notdoppler.com^
 ||plays.org^
+||miniplay.com^
+||now.gg^
+||playbrain.games^
+||playgama.com^
+||8games.net^
+||freegames.com^
 
 ! --- Category 2: German-language portals ---
 ||spiele.com^
@@ -54,6 +60,14 @@
 ||spielkarussell.de^
 ||upjers.com^
 ||bigpoint.com^
+||playit.ch^
+||playit-online.de^
+||60freegames.de^
+||spiele-for-free.de^
+||spielsafari.de^
+||spiele-kostenlos-online.de^
+||1001spiele.de^
+||kinder-spiele.info^
 
 ! --- Category 3: Other large portals ---
 ||gamepix.com^
@@ -71,6 +85,14 @@
 ||girlsgogames.com^
 ||lagged.com^
 ||onlinegames.io^
+||dubdoo.com^
+||gamecomets.com^
+||gameszap.com^
+||ufreegames.com^
+||play-games.com^
+||yiv.com^
+||hahagames.com^
+||gamenora.com^
 
 ! --- Category 4: Educational-branded gaming portals (primarily gaming) ---
 ||coolmathgames.com^
@@ -96,6 +118,16 @@
 ||lavarun.io^
 ||escapewaves.io^
 ||escapetsunamibrainrots.org^
+||iogames.onl^
+||iogames.party^
+||iogamesweb.com^
+||iogame.io^
+||smashkarts.io^
+||moomoo.io^
+||wormate.io^
+||taming.io^
+||zombs.io^
+||mope.io^
 
 ! --- Category 6: Community/Indie with browser games ---
 ||itch.io^
@@ -147,3 +179,44 @@
 ||gameflare.io^
 ||tyrone-unblocked.com^
 ||unblockedgames.world^
+
+! --- Category 11: Brainrot / Skibidi / Meme Games ---
+||playbrainrot.org^
+||brainrot-games.io^
+||brainrotgames.co^
+||brainrotclicker.io^
+||italian-brainrot.io^
+||italianbrainrot-games.github.io^
+||stealabrainrot2.io^
+||steala-brainrot.io^
+||robbrainrot.io^
+||stealbrainrott.com^
+||stealthebrainrot.org^
+||brainplay.com^
+||brainrotnest.com^
+||gameitalianbrainrot.com^
+||playminigames.net^
+||skibidi.io^
+||skibiditoiletgame.io^
+||skibiditoiletgame.com^
+
+! --- Category 12: Unblocked Games (school-bypass sites) ---
+||unblockedgames66.com^
+||unblockedgames77.com^
+||66unblocked.com^
+||unblocked66world.com^
+||1v1lol.me^
+||1v1lol-online.io^
+||retrobowl.me^
+||retrobowl.app^
+||slope3.com^
+||slopeonline.online^
+||slopegameio.github.io^
+||leveldevil.io^
+||geometryspot.com^
+||geometrydashonline.io^
+||freewebgames.io^
+||azgames.io^
+||vitalitygames.com^
+||gamesaturn.com^
+||ludorex.com^
