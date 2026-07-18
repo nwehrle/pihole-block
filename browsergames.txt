@@ -1,6 +1,6 @@
 ! Title: Browsergames Blocklist for Pi-hole
 ! Created: 2026-07-04
-! Entries: 180
+! Entries: 197
 ! Format: Adblock Plus (ABP) syntax - blocks domain + all subdomains
 ! Note: scratch.mit.edu, code.org and educational content are NOT blocked
 !
@@ -46,6 +46,12 @@
 ||playgama.com^
 ||8games.net^
 ||freegames.com^
+||arkadium.com^
+||spele.nl^
+||games.co.uk^
+||gamepost.com^
+||wildtangent.com^
+||shockwave.com^
 
 ! --- Category 2: German-language portals ---
 ||spiele.com^
@@ -156,6 +162,10 @@
 ||jocuri.ro^
 ||oyunlar1.com^
 ||minijuegos.com^
+||yandexgames.com^
+||games.yandex.com^
+||games.yandex.ru^
+||games.mail.ru^
 
 ! --- Category 9: Publishers/Aggregators ---
 ||gamedistribution.com^
@@ -163,6 +173,7 @@
 ||gamemonetize.co^
 ||cpmstar.com^
 ||coolgames.com^
+||playdeck.io^
 
 ! --- Category 10: Other well-known ---
 ||roblox.com^
@@ -199,6 +210,9 @@
 ||skibidi.io^
 ||skibiditoiletgame.io^
 ||skibiditoiletgame.com^
+||sprunki.com^
+||sprunkigame.com^
+||incredibox-sprunki.io^
 
 ! --- Category 12: Unblocked Games (school-bypass sites) ---
 ||unblockedgames66.com^
@@ -220,6 +234,10 @@
 ||vitalitygames.com^
 ||gamesaturn.com^
 ||ludorex.com^
+||classroom6x.com^
+||classroom6x.io^
+||tunnelrush.io^
+||coreball.io^
 
 ! --- Category 13: Gaming Ad Networks ---
 ||nitropay.com^
